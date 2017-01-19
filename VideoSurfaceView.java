@@ -1,22 +1,7 @@
-package com.zeonsolutions.b4app.webapi;
-
-import android.content.Context;
-import android.content.res.AssetFileDescriptor;
-import android.content.res.TypedArray;
-import android.media.MediaPlayer;
-import android.support.annotation.RawRes;
-import android.util.AttributeSet;
-import android.util.Log;
-import android.view.SurfaceHolder;
-import android.view.SurfaceView;
-
-import com.zeonsolutions.b4app.R;
-
 /**
  * Created by Kastr
  * https://github.com/Kastr/VideoSurfaceView
  */
-
 public class VideoSurfaceView extends SurfaceView implements SurfaceHolder.Callback, MediaPlayer.OnPreparedListener, MediaPlayer.OnErrorListener {
 
     private static final int MODE_CENTER = 1;

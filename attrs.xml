@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Created by Kastr
+    https://github.com/Kastr/VideoSurfaceView
+-->
+<resources>
+
+    <declare-styleable name="VideoSurfaceView">
+        <attr name="videoRawResource" format="reference" />
+        <attr name="videoScaleType" format="enum">
+            <enum name="stretch" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="fitHorizontally" value="2"/>
+            <enum name="fitVertically" value="3"/>
+            <enum name="fitAll" value="4"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

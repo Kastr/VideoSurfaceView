@@ -12,8 +12,7 @@ public class VideoSurfaceView extends SurfaceView implements SurfaceHolder.Callb
     private MediaPlayer mp;
     private int mVideoWidth;
     private int mVideoHeight;
-    private @RawRes
-    int videoResource;
+    private @RawRes int videoResource;
     private int videoScaleType;
 
     public VideoSurfaceView(Context context, AttributeSet attrs, int defStyleAttr) {
